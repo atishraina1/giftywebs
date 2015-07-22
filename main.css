@@ -1,0 +1,23 @@
+body {
+    background-image: url("image.jpg");
+	background-repeat: no-repeat center center;
+	background-size: cover;
+	}
+	
+#ati{
+	color: white;
+	font: 30px gabriola;
+	position: absolute;
+	text-align: left;
+	top: 230px;
+	left: 100px;
+	}
+	
+#ati1{
+	color: white;
+	font: 30px gabriola;
+	position: absolute;
+	text-align: left;
+	top: 230px;
+	left: 1000px;
+	}
