@@ -1,23 +1,22 @@
-body {
-    background-image: url("image.jpg");
-	background-repeat: no-repeat center center;
-	background-size: cover;
-	}
-	
+body{
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat center center;
+    background-size: cover;
+    }
+
+.navbar-inverse{
+    background-color: #522575;
+    color: #2a221e;
+    border-color: #2a221e;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
 #ati{
 	color: white;
-	font: 30px gabriola;
+	font: 50px gabriola;
 	position: absolute;
 	text-align: left;
-	top: 230px;
+	top: 200px;
 	left: 100px;
-	}
-	
-#ati1{
-	color: white;
-	font: 30px gabriola;
-	position: absolute;
-	text-align: left;
-	top: 230px;
-	left: 1000px;
 	}

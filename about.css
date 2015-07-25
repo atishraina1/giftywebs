@@ -1,0 +1,54 @@
+body
+{
+          overflow: auto; overflow-x: hidden;
+            border: none;
+}
+
+.top-nav{
+    padding-right: 200px;
+}
+
+.navbar{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-default{
+    background-color: #522575;
+    color: #2a221e;
+    border-color: #2a221e;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.dropdown-menu{
+    background-color: #522575;
+    color: #2a221e;
+    border-color: #2a221e;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.html{
+    position: relative;
+    left: 125px;
+    bottom: 0px;}
+
+h4{
+    font: 36px gabriola;
+    font-weight: bold;
+}
+
+h5{
+    font: 24px gabriola;
+    font-weight: bold;
+}
+
+.panel-footer{
+    text-align: right;
+    font: 30px gabriola;
+    font-weight: bold;
+    color: blue;
+    border: none;}
