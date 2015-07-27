@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>Atish Raina</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!--Bootstrap links for css-->
@@ -32,22 +33,29 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <nav class="nav navbar-nav navbar-right top-nav">
                 <ul class="nav nav-pills">
-                <li role="presentation" class="active"><a href="index.html" style="color: white; font: 18px; font-weight: bold">Home <span class="sr-only">(current)</span></a></li>
-                <li role="presentation"><a href="#about" style="color: white; font: 18px; font-weight: bold;">About</a></li>
-                <li><a href="#skill" style="color: white; font: 18px; font-weight: bold;">Skills</a></li>
+                <li role="presentation"><a href="index.html" style="color: white; font: 18px; font-weight: bold">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#about" class="hidden-xs" style="color: white; font: 18px; font-weight: bold;">About</a></li>
+    <li role="presentation"><a class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse" href="#about" style="color: white; font: 18px; font-weight: bold;">About</a></li>
+                    <li><a href="#skill" class="hidden-xs" style="color: white; font: 18px; font-weight: bold;">Skills</a></li>
+                <li><a class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse" href="#skill" style="color: white; font: 18px; font-weight: bold;">Skills</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: white; font: 18px; font-weight: bold;">Port-Folio <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a  href="#projects" style="color: white; font: 18px; font-weight: bold;">Projects</a></li>
+            <li><a href="#projects" class="hidden-xs" style="color: white; font: 18px; font-weight: bold;">Projects</a></li>
+                            <li><a class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse"  href="#projects" style="color: white; font: 18px; font-weight: bold;">Projects</a></li>
                             <li class="divider"></li>
-                            <li><a href="#trainings" style="color: white; font: 18px; font-weight: bold;">Trainings</a></li>
+        <li><a href="#trainings" class="hidden-xs" style="color: white; font: 18px; font-weight: bold;">Trainings</a></li>
+                            <li><a class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse" href="#trainings" style="color: white; font: 18px; font-weight: bold;">Trainings</a></li>
                             <li class="divider"></li>
-                            <li><a href="#repositories" style="color: white; font: 18px; font-weight: bold;">Repositories</a></li>
+<li><a href="#repositories" class="hidden-xs" style="color: white; font: 18px; font-weight: bold;">Repositories</a></li>
+                            <li><a class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse" href="#repositories" style="color: white; font: 18px; font-weight: bold;">Repositories</a></li>
                             <li class="divider"></li>
-                            <li><a href="#cirricular" style="color: white; font: 18px; font-weight: bold">Cirricular</a></li>
+        <li><a href="#cirricular" class="hidden-xs" style="color: white; font: 18px; font-weight: bold;">Cirricular</a></li>
+        <li><a class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse" href="#cirricular" style="color: white; font: 18px; font-weight: bold">Cirricular</a></li>
                         </ul>
                 </li>
-                <li><a href="#contact" style="color:white; font: 18px; font-weight: bold">Contact</a></li>
+            <li><a href="#contact" class="hidden-xs" style="color: white; font: 18px; font-weight: bold;">Contact</a></li>
+                <li><a class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse" href="#contact" style="color:white; font: 18px; font-weight: bold">Contact</a></li>
                     <li><a href="https://github.com/atishraina1" target="_blank" style="font-size: 25px;"><i class="fa fa-github-square"></i></a>
                     <li><a href="https://www.linkedin.com/" target="_blank" style="font-size: 25px;"><i class="fa fa-linkedin-square"></i></a>
                     
@@ -66,8 +74,9 @@
     
     <!--Skill Strip-->
     
-    <div class="container" id="skill">
-            <h1 class="text-center mb40">Equipped with the listed skills and involved in contionous upgradation...</h1>
+    <div class="jumbotron text-center" id="skill" style="background-color: white;">
+    <div class="container">
+            <h4>Equipped with the listed skills and involved in contionous upgradation...</h4> <br/>
         <div class="html">
             <div class="row">
                                     <div class="col-md-3 col-xs-6">
@@ -95,36 +104,88 @@
                     </div>
                             </div>
         </div>
+    
+            <h4>Tools/ OS</h4> <br/>
+        <div class="html">
+            <div class="row">
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+                            <i class="glyphicon glyphicon-refresh" style="font-size: 60px;"></i>
+                            <h5>Grunt</h5>
+                       </div>
+                    </div>
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+                            <i  class="glyphicon glyphicon-share" style="font-size: 60px;"></i>
+                            <h5>File-Zilla</h5>
+                        </div>
+                    </div>
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+                            <i class="glyphicon glyphicon-eye-open" style="font-size: 60px;"></i>
+                            <h5>Fedora-22</h5>
+                       </div>
+                    </div>
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+                            <i class="glyphicon glyphicon-fire" style="font-size: 60px;"></i>
+                            <h5>Windows-7</h5>                      </div>
+                    </div>
+                            </div>
+        </div>
     </div>
     </div>
 
     <!--Project Strip-->
-    <div class="jumbotron text-center" id="projects" style="background-image: url(images/3.jpg); background-repeat: no-repeat center center; background-size: cover; color: white;">
-        <h1>Projects</h1>
-        <p>Developed the frontend as well as backend for listed projects along with managing the database...</p>
-    
+    <div class="jumbotron text-center" id="projects" style="background-image: url(images/3.jpg); background-repeat: no-repeat center center;                background-size: cover; color: white;">
     <div class="container">
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Chat App:</div>
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Frontend: Developed the frontend design using HTML5/CSS3</div>
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Backend: The server and the backend was handled using node.js             </div>
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Database: MongoDB(No Sql Database) was used for the app</div>
-    
-    <div></div> <br/> <br/>
-        
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Website:</div>                                                                       <a href="https://github.com/atishraina1/giftywebs" target="_blank" style="font-size:26px;
-                    font-weight: bold; color: white;">Github Link</a><br/>
-        
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Frontend: Developed the frontend design using HTML5/CSS3,                                                Bootstrap, JavaScript</div>
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Backend: php was used for creating the backend for the "Contact"                                        Form</div>
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Hosting: GoDaddy was used for the domain registiration and hosting                                  files</div>
-    </div>
-    </div>
-
-    <div></div>
+            <h4>Projects:</h4> <br/>
+        <div class="html1">
+            <div class="row">
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+                            <i class="glyphicon glyphicon-ok-circle" style="font-size: 60px;"></i>
+                            <h5>Chat App:</h5>
+                            <h5>Front End: HTML5/CSS3</h5>
+                            <h5>Back End: node.js</h5>
+                            <h5>Database: MongoDb</h5>
+                       </div>
+                    </div>
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+<a href="https://github.com/atishraina1/giftywebs" target="_blank"> <i  class="glyphicon glyphicon-play-circle" style="font-size: 60px;"></i> </a>
+                            <h5>Website:</h5>
+                            <h5>Front End: HTML5/ CSS3<br/>/Bootstrap/ JS</h5>
+                            <h5>Back End: php</h5>
+                            <h5>Hosting: GoDaddy</h5>
+                        </div>
+                </div>             
+                                        <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+                            <i  class="glyphicon glyphicon-remove-sign" style="font-size: 60px;"></i>
+                            <h5>People Management System:</h5>
+                            <h5>In Progress</h5>
+                        </div>
+                </div>
+                
+                                <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+                            <i  class="glyphicon glyphicon-remove-sign" style="font-size: 60px;"></i>
+                            <h5>Financial Management Solutions:</h5>
+                            <h5>In Progress</h5>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+</div>
 
     <!--Training Strip-->
-    <div class="container" id="trainings">
-        
+    <div class="jumbotron text-center" id="trainings" style="background-color: white;" >
+    
+    <div class="container" >
+            
         <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Training Cirriculums(Verified by authentic certificates):</div>
         <div> </div>
 
@@ -147,28 +208,44 @@
         <div> </div>
         
     </div>
+        </div>
 
     <!--Repository Strip-->
     <div class="jumbotron text-center" id="repositories" style="background-image: url(images/4.jpg); background-repeat: no-repeat center center;                background-size: cover; color: white;">
-        <h1>Repositories</h1>
-        <p>The repositories are being managed using gitbash and git commands...</p>
-    
     <div class="container">
-        
-        <div class="glyphicon glyphicon-envelope" style="font: 48px gabriola;">Repository Link:<a href="https://github.com/atishraina1"                                     target="_blank">Click Here</a></div></br>
-        
-        <div class="glyphicon glyphicon-envelope" style="font: 38px gabriola;">Website Project:                                                                    <a href="https://github.com/atishraina1/giftywebs" target="_blank">Click Here</a></div></br>
-        
-        <div class="glyphicon glyphicon-envelope" style="font: 38px gabriola;">Git Commands:                                                                      <a href="https://github.com/atishraina1/Git_Commands" target="_blank">Click Here</a></div></br>
-        
-        <div class="glyphicon glyphicon-envelope" style="font: 38px gabriola;">Java Programs:                                                                      <a href="https://github.com/atishraina1/Java_Programs" target="_blank">Click Here</a></div></br>
-        
-        <div class="glyphicon glyphicon-envelope" style="font: 38px gabriola;">JavaScript Code:                                                                    <a href="https://github.com/atishraina1/JS_Code" target="_blank">Click Here</a></div></br>
-    
-    </div>
-    </div>
-    
-    <div> </div>
+            <h4>Repositories:</h4> <br/>
+        <div class="html1">
+            <div class="row">
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+<li><a href="https://github.com/atishraina1/Git_Commands" target="_blank" style="font-size: 60px;"><i class="fa fa-github-square"></i></a>
+                            <h5>Git Commands</h5>
+                       </div>
+                    </div>
+                                    <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+<li><a href="https://github.com/atishraina1/giftywebs" target="_blank" style="font-size: 60px;"><i class="fa fa-github-square"></i></a>
+                            <h5>Website</h5>
+                        </div>
+                </div>             
+                                        <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+<li><a href="https://github.com/atishraina1/Java_Programs" target="_blank" style="font-size: 60px;"><i class="fa fa-github-square"></i></a>
+                            <h5>Java Programs</h5>
+                        </div>
+                </div>
+                
+                                <div class="col-md-3 col-xs-6">
+                        <div class="std-block">
+<li><a href="https://github.com/atishraina1/JS_Code" target="_blank" style="font-size: 60px;"><i class="fa fa-github-square"></i></a>
+                            <h5>Java Script revival</h5>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+</div>
 
     <!--Cirricular Strip-->
     <div class="container" id="cirricular">
@@ -194,6 +271,9 @@
 
 <div class="jumbotron text-center" id="contact" style="background-image: url(images/5.jpg); background-repeat: no-repeat center center;                background-size: cover; color: white;">
 <div class="container">
+    
+                    <h4>For any queries: </h4>
+    
 <form style="margin-top: 10px;">
                         <div class="form-group">
                             <!--<label for="inputName">Name</label>-->
@@ -205,18 +285,12 @@
                         </div>
     
                         <div class="form-group">
-                            <!--<label for="inputEmail">Email</label>-->
-                            <input type="email" class="form-control input-lg" id="inputEmail" placeholder="Please enter you Contact No.">
-                        </div>
-    
-                        <div class="form-group">
                             <!--<label for="inputMessage">Message</label>-->
-                            <textarea type="text" class="form-control input-lg" rows="6" id="inputMessage" placeholder="Query"></textarea>
+<textarea type="text" class="form-control input-lg" rows="6" id="inputMessage" placeholder="Please specify the Query"></textarea>
                         </div>
-                        <button class="btn btn-lg btn-primary btn-block" 
+                        <button class="btn btn-lg btn-primary " 
                                 type="button" id="contactSubmit" onclick="return contactFormSubmit();">Submit</button>
-                        <button class="btn btn-lg btn-default btn-block" style="color: #000; display: none;"
-                                type="button" id="contactSubmitWorking" disabled="disabled"><i class="fa fa-spinner fa-pulse fa-fw"></i> Loading ...</button>
+                        
                     </form>
                 
                 <h4>E-mail ID: atish.raina91@gmail.com/ atish.raina@giftywebs.in</h4>
@@ -237,14 +311,27 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type="text/javascript">
+    var $jq1 = jQuery.noConflict();
+ $jq1(function () {
+     $jq1('html')
+      .on('click.dropdown.data-api', clearMenus)
+      .on('click.dropdown.data-api touchstart.dropdown.data-api', clearMenus)
+     $jq1('body')
+    .on('click.dropdown', '.dropdown form', function (e) { e.stopPropagation() }) 
+</script>
+
+<script type='text/javascript' src='js/jquery.js'></script>  
+<script type="text/javascript" >
+    var $jqq = jQuery.noConflict();
+$jq(function() {
+  $jq('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      var target = $jq(this.hash);
+      target = target.length ? target : $jq('[name=' + this.hash.slice(1) +']');
       if (target.length) {
-        $('html,body').animate({
+        $jq('html,body').animate({
           scrollTop: target.offset().top
         }, 1000);
         return false;
@@ -254,5 +341,7 @@ $(function() {
 });
 </script>
 <!-- End of SMOOTH SCROLL -->
+
+
 </body>
 </html>
