@@ -47,6 +47,11 @@ h5{
     font-weight: bold;
 }
 
+h6{
+    font: 24px tahoma;
+    font-weight: bold;
+}
+
 .panel-footer{
     text-align: right;
     font: 30px gabriola;
